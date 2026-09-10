@@ -1,0 +1,708 @@
+{
+    "count": 23,
+    "results": [
+        {
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0ODA5NTY0NCIsInMiOiJqa0djVGhpdDhSRzdNcjVHQy1BOGNnIn0.2aqB8Gcyb8XyPHeoYklnuNn1XTCnBbCe6Y2RPNk7rQ0",
+            "category": {
+                "label": "IT",
+                "tag": "it-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "title": "Business Data Analyst ServiceNow",
+            "created": "2026-08-19T13:00:28Z",
+            "salary_is_predicted": "0",
+            "location": {
+                "display_name": "Wrocław, dolnośląskie",
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "redirect_url": "https://www.adzuna.pl/land/ad/5848095644?se=jkGcThit8RG7Mr5GC-A8cg&utm_medium=api&utm_source=227b256d&v=8FAED619E58209EA0E9F71C262970F25A0B8BDAC",
+            "latitude": 51.10789,
+            "description": "Choosing Capgemini means choosing a company where you will be empowered to shape your career in the way you’d like, where you’ll be supported and inspired by a collaborative community of colleagues around the world, and where you’ll be able to reimagine what’s possible. Join us and help the world’s leading organizations unlock the value of technology and build a more sustainable, more inclusive world. Your role As a Business Data Analyst, you will have the opportunity to work on a wide range o …",
+            "longitude": 17.03854,
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Capgemini"
+            },
+            "id": "5848095644"
+        },
+        {
+            "id": "5829010846",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "display_name": "Capgemini",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "description": "Choosing Capgemini means choosing a company where you will be empowered to shape your career in the way you’d like, where you’ll be supported and inspired by a collaborative community of colleagues around the world, and where you’ll be able to reimagine what’s possible. Join us and help the world’s leading organizations unlock the value of technology and build a more sustainable, more inclusive world. Your role As a Data Analyst you will lead complex process mining programs and ensure high-qual…",
+            "latitude": 51.10789,
+            "longitude": 17.03854,
+            "salary_is_predicted": "0",
+            "redirect_url": "https://www.adzuna.pl/land/ad/5829010846?se=jkGcThit8RG7Mr5GC-A8cg&utm_medium=api&utm_source=227b256d&v=AD90223EFBCB6CE59CB25518804926466BEFD376",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "display_name": "Wrocław, dolnośląskie"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamtHY1RoaXQ4Ukc3TXI1R0MtQThjZyIsImkiOiI1ODI5MDEwODQ2In0.o7ipMiRbwNfNJuGXhWfWbIqqshYSmeR5AJQhYK_etNw",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs",
+                "label": "IT"
+            },
+            "title": "Data Analyst Process Mining BI",
+            "created": "2026-08-05T12:54:52Z"
+        },
+        {
+            "created": "2026-08-27T13:01:03Z",
+            "title": "Data Platform Analyst Kafka",
+            "salary_max": 322560,
+            "category": {
+                "label": "IT",
+                "tag": "it-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamtHY1RoaXQ4Ukc3TXI1R0MtQThjZyIsImkiOiI1ODU4MTg5NzUzIn0.18ADMYyK-LlFBINpe1FpFfLp1b7Pw7cI0Nmdi43GWAQ",
+            "location": {
+                "display_name": "Wrocław, dolnośląskie",
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "redirect_url": "https://www.adzuna.pl/land/ad/5858189753?se=jkGcThit8RG7Mr5GC-A8cg&utm_medium=api&utm_source=227b256d&v=278DFDBD9D5E7B93B4266EEB338E918A488C67CB",
+            "salary_min": 262080,
+            "salary_is_predicted": "0",
+            "longitude": 17.03854,
+            "latitude": 51.10789,
+            "description": "W ITLT pomagamy naszym zaprzyjaźnionym firmom przekształcać ambitne pomysły w cyfrową rzeczywistość. Z nastawieniem na wyzwania, ciekawość technologii i zwinność współtworzymy wyjątkowe rozwiązania IT i zapewniamy doświadczone osoby eksperckie, które pomagają przyspieszać cyfrową transformację. Aktualnie poszukujemy profilu na stanowisko: Data Platform Analyst (Kafka) Informacje organizacyjne: Lokalizacja biura: Wrocław Tryb realizacji usług: zdalnie  spotkania w biurze raz w miesiącu Forma wsp…",
+            "id": "5858189753",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "ITLT"
+            }
+        },
+        {
+            "longitude": 17.02673,
+            "latitude": 51.10931,
+            "description": "We’re looking for a Data Analyst to join our Data team and help us turn the data in our central warehouse into actionable insights that guide commercial and product decisions. You’ll likely thrive in this role if you enjoy uncovering trends, translating data into clear business narratives, and taking ownership of how analytics evolves across the organisation. If dynamic, cross-functional environments bring out your best, you’ll feel right at home. We are flexible with the location of this role.…",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Cookie Information A/S"
+            },
+            "id": "5843286147",
+            "created": "2026-08-15T17:56:43Z",
+            "title": "Data Analyst",
+            "contract_time": "full_time",
+            "category": {
+                "label": "Unknown",
+                "tag": "unknown",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MzI4NjE0NyIsInMiOiJqa0djVGhpdDhSRzdNcjVHQy1BOGNnIn0.qpkreJK5zUtJDnCqD_TiUtg4dlTEF4di6ErMhf4Na0g",
+            "redirect_url": "https://www.adzuna.pl/details/5843286147?utm_medium=api&utm_source=227b256d",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "display_name": "Wrocław, dolnośląskie"
+            },
+            "salary_is_predicted": "0"
+        },
+        {
+            "latitude": 51.11201,
+            "description": "Fetcherr builds responsible AI that transforms market complexity into measurable profit growth. At the core of the company is the Market Model - a proprietary AI-powered model delivering accurate, granular demand predictions with 96% forecast accuracy and real-time decision intelligence for commercial teams. Built on a glass-box architecture, it uses market data - not personal data - with full transparency into logic and outcomes. First deployed in global aviation, the technology is industry-ag…",
+            "longitude": 17.01874,
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "display_name": "Fetcherr",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "id": "5855572777",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamtHY1RoaXQ4Ukc3TXI1R0MtQThjZyIsImkiOiI1ODU1NTcyNzc3In0.BelxVpfnmPZUP7u__LUWnRP-6Guxz2bcJ36ga9gZ7yY",
+            "category": {
+                "label": "Unknown",
+                "tag": "unknown",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "contract_time": "full_time",
+            "title": "Data Analyst- Tableau",
+            "created": "2026-08-25T17:48:37Z",
+            "salary_is_predicted": "0",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "display_name": "Wrocław, dolnośląskie"
+            },
+            "redirect_url": "https://www.adzuna.pl/details/5855572777?utm_medium=api&utm_source=227b256d"
+        },
+        {
+            "id": "5849803742",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Just Eat"
+            },
+            "description": "Ready for a challenge? Then Pyszne.pl might be the place for you. We’re a leading global online delivery platform, and our vision is to empower everyday convenience. Whether it’s a Friday-night feast, a post-gym poke bowl, or grabbing some groceries, our tech platform connects tens of millions of customers with hundreds of thousands of restaurant, grocery and convenience partners across the globe. About this role To make our customers and partners happy we are relying heavily on insights hidden…",
+            "latitude": 51.10789,
+            "longitude": 17.03854,
+            "salary_is_predicted": "0",
+            "redirect_url": "https://www.adzuna.pl/details/5849803742?utm_medium=api&utm_source=227b256d",
+            "location": {
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "display_name": "Wrocław, dolnośląskie",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamtHY1RoaXQ4Ukc3TXI1R0MtQThjZyIsImkiOiI1ODQ5ODAzNzQyIn0.PiSK2zB5Atx8FoNwqsULcbww42pUhOdnt9VKOgZbJg0",
+            "category": {
+                "tag": "unknown",
+                "label": "Unknown",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "contract_time": "full_time",
+            "title": "Business Data Analyst",
+            "created": "2026-08-20T17:49:59Z"
+        },
+        {
+            "salary_min": 277200,
+            "salary_is_predicted": "0",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "display_name": "Wrocław, dolnośląskie"
+            },
+            "redirect_url": "https://www.adzuna.pl/land/ad/5840228634?se=jkGcThit8RG7Mr5GC-A8cg&utm_medium=api&utm_source=227b256d&v=70C956C30CDE95A9131A4FCA706F6B05B5716374",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "IT",
+                "tag": "it-jobs"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamtHY1RoaXQ4Ukc3TXI1R0MtQThjZyIsImkiOiI1ODQwMjI4NjM0In0.W2V8leDMSWPwdzhq-8BWzLlKGM8rRDymqTf1eTTi4Ag",
+            "created": "2026-08-13T12:57:07Z",
+            "title": "Data Platform Developer-Analyst",
+            "salary_max": 327600,
+            "id": "5840228634",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Upvanta sp. z o.o."
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "description": "Do zespołu Data Platform poszukujemy programisty-analityka, który nie tylko będzie budował nowoczesne rozwiązania oparte na Apache Kafka, Kafka Connect, Spring Boot, MongoDB, GraphQL i Apache Iceberg, ale także będzie odpowiedzialny za analizę wymagań biznesowych oraz mapowanie danych pomiędzy systemami źródłowymi, platformą streamingową i bazą ODS opartą o MongoDB i usługi graphQL. Idealny kandydat potrafi rozmawiać z interesariuszami, przekształcać ich potrzeby w techniczne specyfikacje oraz …",
+            "latitude": 51.10789,
+            "longitude": 17.03854
+        },
+        {
+            "description": "DESCRIPTION Data Analyst Responsibilities • Participate in data and finance-related projects delivered on cloud platforms • Support data validation and ensure delivered data meets business quality expectations • Contribute to data modeling activities (e.g. logical and dimensional models) • Analyze financial datasets and support definition of KPIs and business rules • Collaborate with Data Engineers and Product Owner on data requirements and user stories • Assist in identifying data issues and p…",
+            "latitude": 51.10789,
+            "longitude": 17.03854,
+            "id": "5822313056",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "display_name": "Avenga",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "category": {
+                "tag": "it-jobs",
+                "label": "IT",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgyMjMxMzA1NiIsInMiOiJqa0djVGhpdDhSRzdNcjVHQy1BOGNnIn0.THG7EJcVw0En7Q0i5WsA-q9hyhWLIYOVQUBSV8P_ycM",
+            "title": "Data Analyst Scrum Master",
+            "salary_max": 32760,
+            "created": "2026-07-31T12:54:51Z",
+            "salary_min": 27720,
+            "salary_is_predicted": "0",
+            "redirect_url": "https://www.adzuna.pl/land/ad/5822313056?se=jkGcThit8RG7Mr5GC-A8cg&utm_medium=api&utm_source=227b256d&v=27D9C28B7C0F03F1B32CB505BD6C88D304E4B148",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Wrocław, dolnośląskie",
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ]
+            }
+        },
+        {
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "IT",
+                "tag": "it-jobs"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamtHY1RoaXQ4Ukc3TXI1R0MtQThjZyIsImkiOiI1ODM0MTk5MTk1In0.paF3EErp9PgtY08-pjKS1fzVgm1OGX-AqlzCg3BrfOY",
+            "title": "HR Data Analyst @ Antal",
+            "created": "2026-08-09T03:47:31Z",
+            "contract_time": "full_time",
+            "salary_is_predicted": "0",
+            "redirect_url": "https://www.adzuna.pl/details/5834199195?utm_medium=api&utm_source=227b256d",
+            "location": {
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "display_name": "Wrocław, dolnośląskie",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "description": "Undergraduate degree (degree in business analytics, statistics, math, or computer science is preferred). 2 years of experience in an analytical role (experience in People/HR analytics is a significant advantage). Strong technical skills: PowerApps (Power BI, Power Query, Power Automate) , Advanced Excel, and Advanced PowerPoint. Superb analytical skills with hands-on experience in cleaning, manipulating, and combining large datasets. Excellent written and verbal communication skills with the ab…",
+            "latitude": 51.10789,
+            "longitude": 17.03854,
+            "id": "5834199195",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "display_name": "Antal",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            }
+        },
+        {
+            "title": "Senior Data Analyst - Customer Service EMEA",
+            "created": "2026-09-06T07:48:16Z",
+            "category": {
+                "label": "Unknown",
+                "tag": "unknown",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamtHY1RoaXQ4Ukc3TXI1R0MtQThjZyIsImkiOiI1ODcyNzkzMTQwIn0.thb8IagW_XREm4XcMJ-SmuoVTwjou4vvQylELGTH-Yc",
+            "location": {
+                "display_name": "Wrocław, dolnośląskie",
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "redirect_url": "https://www.adzuna.pl/details/5872793140?utm_medium=api&utm_source=227b256d",
+            "salary_is_predicted": "0",
+            "longitude": 17.03854,
+            "description": "Bring more to life. Are you ready to accelerate your potential and make a real difference within life sciences, diagnostics and biotechnology? At Beckman Coulter Diagnostics, one of Danaher's (https://danaher.com/our-businesses) 15 operating companies, our work saves lives-and we're all united by a shared commitment to innovate for tangible impact. You'll thrive in a culture of belonging where you and your unique viewpoint matter. And by harnessing Danaher's system of continuous improvement, yo…",
+            "latitude": 51.10789,
+            "company": {
+                "display_name": "Danaher Corporation",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5872793140"
+        },
+        {
+            "contract_time": "full_time",
+            "title": "(Associate) Specialist, Data Analyst & Analytics Engineering",
+            "created": "2026-08-30T17:49:33Z",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamtHY1RoaXQ4Ukc3TXI1R0MtQThjZyIsImkiOiI1ODYyMzMzMjk3In0.bOvqDeH39_RHQ8qS2-dcQDc7ywGevi48cU5tmjy_mjs",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "PR, reklama, marketing",
+                "tag": "pr-advertising-marketing-jobs"
+            },
+            "location": {
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "display_name": "Wrocław, dolnośląskie",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "redirect_url": "https://www.adzuna.pl/details/5862333297?utm_medium=api&utm_source=227b256d",
+            "salary_is_predicted": "0",
+            "longitude": 17.03854,
+            "latitude": 51.10789,
+            "description": "Overview At QIAGEN, we are driven by a simple but powerful vision: making improvements in life possible. We’re dedicated to revolutionizing science and healthcare for the better. From our entrepreneurial roots to our current global presence, we've grown into a force for positive change. With thousands of employees across six continents, collaboration is our greatest strength. We’re always striving to identify talented individuals to join our exceptional teams. We have played a pivotal role in s…",
+            "id": "5862333297",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "display_name": "QIAGEN Wroclawz.o.o.",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            }
+        },
+        {
+            "redirect_url": "https://www.adzuna.pl/land/ad/5840228916?se=jkGcThit8RG7Mr5GC-A8cg&utm_medium=api&utm_source=227b256d&v=62FB17B8C028CF7A994AFE461D085975AB3C9989",
+            "location": {
+                "display_name": "Wrocław, dolnośląskie",
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "salary_is_predicted": "0",
+            "salary_min": 141120,
+            "salary_max": 201600,
+            "title": "Data Platform Developer-Analyst f m x",
+            "created": "2026-08-13T12:57:47Z",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "IT",
+                "tag": "it-jobs"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MDIyODkxNiIsInMiOiJqa0djVGhpdDhSRzdNcjVHQy1BOGNnIn0._Pv-_kdmxp5ELb1yL8zQcuu0j9nGyQJ8OmHv_XfHkgQ",
+            "company": {
+                "display_name": "B2Bnetwork",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5840228916",
+            "longitude": 17.03854,
+            "latitude": 51.10789,
+            "description": "Poszukujemy osoby na stanowisko Data Platform Developer-Analyst, która połączy kompetencje developerskie z analizą wymagań biznesowych. Rola obejmuje rozwój nowoczesnej platformy event-driven, pracę z Apache Kafka oraz projektowanie i integrację przepływów danych. Istotnym elementem stanowiska jest współpraca z interesariuszami i zespołami IT oraz przekładanie potrzeb biznesowych na rozwiązania techniczne. Zakres obowiązków Analiza wymagań biznesowych i przekładanie ich na specyfikacje technicz…"
+        },
+        {
+            "id": "5828820561",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Sii Sp. z o.o."
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "longitude": 17.03854,
+            "description": "Lead Data Analyst with Power BI (f/m/x) Miejsce pracy: Wrocław Technologie, których używamy Wymagane Microsoft Fabric SQL Python DAX Microsoft Azure Power Query Data Modeling Data Quality Data Governance Analityka ML Microsoft Power BI Mile widziane MS Fabric IQ Microsoft Copilot Studio ETL DWH Databricks Snowflake O projekcie Chcesz tworzyć rozwiązania Data & Analytics, które realnie wspierają decyzje biznesowe? Dołącz do naszego Centrum Kompetencyjnego Data & Analytics i współtwórz nowoczesne…",
+            "latitude": 51.10789,
+            "location": {
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "display_name": "Wrocław, dolnośląskie",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "redirect_url": "https://www.adzuna.pl/details/5828820561?utm_medium=api&utm_source=227b256d",
+            "salary_is_predicted": "0",
+            "title": "Lead Data Analyst with Power BI (f/m/x)",
+            "created": "2026-08-05T09:27:56Z",
+            "category": {
+                "tag": "it-jobs",
+                "label": "IT",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgyODgyMDU2MSIsInMiOiJqa0djVGhpdDhSRzdNcjVHQy1BOGNnIn0.K2nKFePaKFIJxORtEzJ8JJ5vJK-5RDoHz8uq71q5dD8"
+        },
+        {
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "display_name": "Wrocław, dolnośląskie"
+            },
+            "redirect_url": "https://www.adzuna.pl/land/ad/5818296173?se=jkGcThit8RG7Mr5GC-A8cg&utm_medium=api&utm_source=227b256d&v=DABFDEF7C6A4720C47F53CA7282DBC67DD4F393A",
+            "salary_is_predicted": "0",
+            "created": "2026-07-28T12:50:56Z",
+            "title": "Mid Senior Data Analyst with Python f m d",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamtHY1RoaXQ4Ukc3TXI1R0MtQThjZyIsImkiOiI1ODE4Mjk2MTczIn0.rpIsBQfN6JTO8XvSL5i3i7tfJ9-bWwow1LJglC1J33o",
+            "category": {
+                "tag": "it-jobs",
+                "label": "IT",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Ten Square Games"
+            },
+            "id": "5818296173",
+            "longitude": 17.03854,
+            "latitude": 51.10789,
+            "description": "HYBRID WORK MODEL: 3 DAYS PER WEEK (60%) IN OUR WROCLAW OFFICE AND 2 DAYS REMOTE About us Hi, we are Ten Square Games, and we live games! No, not a typo - but a level up from loving! We are on a mission of giving players excellent outdoor experiences on their mobiles. With global hits, such as Fishing Clash, we know how to make the best of technology, fun, and fair play. With 77 million registered players in 2024 and 300 people on board, we keep growing and learning, having the insatiable hunge…"
+        },
+        {
+            "title": "Data Platform Developer and Analyst | Branża bankowa",
+            "created": "2026-08-13T12:57:47Z",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MDIyODkyNiIsInMiOiJqa0djVGhpdDhSRzdNcjVHQy1BOGNnIn0.yual0RS6G8rz3EJu7OV2sK_ZcKza3nYlfEe8T_AoGIQ",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "IT",
+                "tag": "it-jobs"
+            },
+            "redirect_url": "https://www.adzuna.pl/land/ad/5840228926?se=jkGcThit8RG7Mr5GC-A8cg&utm_medium=api&utm_source=227b256d&v=D8DD3BF1888CF9C278515BB9EDD9703383AEEDD5",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Wrocław, dolnośląskie",
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ]
+            },
+            "salary_is_predicted": "0",
+            "longitude": 17.03854,
+            "latitude": 51.10789,
+            "description": "O nas Społeczność Edge One Solutions powstała z miłości do nowych technologii. Liczymy ponad 350 ekspertów, a w Grupie Euvic, której jesteśmy częścią, jest nas już 5500. Indywidualne podejście pozwala na dopasowanie projektów do umiejętności, przez co realnie wspieramy się w rozwoju kompetencji. O kliencie Nasz Klient to jeden z wiodących banków uniwersalnych w Polsce, należący do międzynarodowej grupy finansowej. Organizacja oferuje kompleksowe usługi bankowe dla klientów indywidualnych oraz b…",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Edge One Solutions Sp. z o.o"
+            },
+            "id": "5840228926"
+        },
+        {
+            "longitude": 17.03854,
+            "description": "Data Platform Developer-Analyst Miejsce pracy: Wrocław Technologie, których używamy Wymagane Apache Kafka SQL Java Spring Boot Spring Framework MongoDB GraphQL Python Prometheus Grafana OpenTelemetry Jira Confluence O projekcie Dołącz do NATEK Polska jako Data Platform Developer-Analyst i wesprzyj realizację projektów dla jednego z naszych klientów w branży bankowej. Tak organizujemy naszą pracę Tak pracujemy u klienta Twój zakres obowiązków Współpraca z analitykami i zespołami IT w zakresie an…",
+            "latitude": 51.10789,
+            "id": "5849363483",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "NATEK POLAND"
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "created": "2026-08-20T10:01:02Z",
+            "title": "Data Platform Developer-Analyst",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamtHY1RoaXQ4Ukc3TXI1R0MtQThjZyIsImkiOiI1ODQ5MzYzNDgzIn0.uFZictQmA82qrJy4HOhIG5mOT8-qooW8mFrR98eU9Y0",
+            "category": {
+                "tag": "it-jobs",
+                "label": "IT",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "display_name": "Wrocław, dolnośląskie"
+            },
+            "redirect_url": "https://www.adzuna.pl/details/5849363483?utm_medium=api&utm_source=227b256d",
+            "salary_is_predicted": "0"
+        },
+        {
+            "created": "2026-08-15T09:39:23Z",
+            "title": "Data Platform Developer-Analyst",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0Mjg0MjUxNiIsInMiOiJqa0djVGhpdDhSRzdNcjVHQy1BOGNnIn0.C044DI7T6wktAg3ZN73dkNeuNUCce3Pq8skgOHIPJ2c",
+            "category": {
+                "tag": "it-jobs",
+                "label": "IT",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "location": {
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "display_name": "Wrocław, dolnośląskie",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "redirect_url": "https://www.adzuna.pl/details/5842842516?utm_medium=api&utm_source=227b256d",
+            "salary_is_predicted": "0",
+            "longitude": 17.03854,
+            "latitude": 51.10789,
+            "description": "Data Platform Developer-Analyst Miejsce pracy: Wrocław Technologie, których używamy Wymagane Java Spring Boot Apache Kafka Kafka Connect Kafka Streams kSQL MongoDB GraphQL Apache Iceberg Python Prometheus Grafana OpenTelemetry O projekcie Dla naszego klienta poszukujemy Data Platform Developer-Analyst, który łączy umiejętności programistyczne i analityczne. Osoba na tym stanowisku będzie rozwijać rozwiązania oparte na Apache Kafka, Kafka Connect, Spring Boot, MongoDB, GraphQL i Apache Iceberg, …",
+            "id": "5842842516",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "display_name": "HIBERUS POLAND SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            }
+        },
+        {
+            "salary_is_predicted": "0",
+            "redirect_url": "https://www.adzuna.pl/details/5831665172?utm_medium=api&utm_source=227b256d",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "display_name": "Wrocław, dolnośląskie"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamtHY1RoaXQ4Ukc3TXI1R0MtQThjZyIsImkiOiI1ODMxNjY1MTcyIn0.P7kOzpbj52C2wH4A1Q-J1iClRxJvR-xIgkZAMocR7CQ",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "scientific-qa-jobs",
+                "label": "Praca naukowa i QA"
+            },
+            "title": "Business Analyst (Data Governance)",
+            "created": "2026-08-07T09:30:13Z",
+            "id": "5831665172",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "display_name": "Scalo Sp. z o.o.",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "description": "Business Analyst (Data Governance) Miejsce pracy: Wrocław Technologie, których używamy Wymagane Ab Initio Collibra SQL O projekcie W Scalo zajmujemy się dostarczaniem projektów software'owych i wspieraniem naszych partnerów w rozwijaniu ich biznesu. Tworzymy oprogramowanie, które umożliwia ludziom dokonywanie zmian, działanie w szybszym tempie oraz osiąganie lepszych rezultatów. Wykorzystujemy szerokie spektrum usług IT, aby wspierać naszych klientów w realizacji ich celów biznesowych. Obszary …",
+            "latitude": 51.10789,
+            "longitude": 17.03854
+        },
+        {
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MTQ4NzYwOSIsInMiOiJqa0djVGhpdDhSRzdNcjVHQy1BOGNnIn0.xvm5M0-2xqBkue5L7rJ9AMwKfTq42YeTpwoIgNEnV9g",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "IT",
+                "tag": "it-jobs"
+            },
+            "created": "2026-08-14T10:07:40Z",
+            "title": "Data Platform Developer-Analyst (f/m/x)",
+            "salary_is_predicted": "0",
+            "redirect_url": "https://www.adzuna.pl/details/5841487609?utm_medium=api&utm_source=227b256d",
+            "location": {
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "display_name": "Wrocław, dolnośląskie",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "latitude": 51.10789,
+            "description": "Data Platform Developer-Analyst (f/m/x) Miejsce pracy: Wrocław Technologie, których używamy Wymagane Apache Kafka Kafka Streams kSQL Kafka Connect Java Spring Boot Spring Cloud Spring Security Spring Data MongoDB GraphQL Apache Iceberg Python Prometheus Grafana OpenTelemetry TLS SASL ACL O projekcie Poszukujemy osoby na stanowisko Data Platform Developer-Analyst, która połączy kompetencje developerskie z analizą wymagań biznesowych. Rola obejmuje rozwój nowoczesnej platformy event-driven, pracę…",
+            "longitude": 17.03854,
+            "id": "5841487609",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "B2B.NET S.A."
+            }
+        },
+        {
+            "category": {
+                "tag": "it-jobs",
+                "label": "IT",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MTQ4NzA4NCIsInMiOiJqa0djVGhpdDhSRzdNcjVHQy1BOGNnIn0.Vh3fNl8seBkumJ3eCRNPqT_gX79-E0CizWhqkETwk-o",
+            "title": "Data Platform Developer-Analyst (m/k/n)",
+            "created": "2026-08-14T10:07:30Z",
+            "salary_is_predicted": "0",
+            "redirect_url": "https://www.adzuna.pl/details/5841487084?utm_medium=api&utm_source=227b256d",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Wrocław, dolnośląskie",
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ]
+            },
+            "description": "Data Platform Developer-Analyst (m/k/n) Miejsce pracy: Wrocław Technologie, których używamy Wymagane Apache Kafka Spring Boot Java MongoDB O projekcie Do zespołu Data Platform poszukujemy programisty-analityka, który nie tylko będzie budował nowoczesne rozwiązania oparte na Apache Kafka, Kafka Connect, Spring Boot, MongoDB, GraphQL i Apache Iceberg, ale także będzie odpowiedzialny za analizę wymagań biznesowych oraz mapowanie danych pomiędzy systemami źródłowymi, platformą streamingową i bazą O…",
+            "latitude": 51.10789,
+            "longitude": 17.03854,
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "UPVANTA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
+            },
+            "id": "5841487084"
+        },
+        {
+            "title": "Data Platform Developer and Analyst | Branża bankowa",
+            "created": "2026-08-15T09:39:17Z",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamtHY1RoaXQ4Ukc3TXI1R0MtQThjZyIsImkiOiI1ODQyODQxOTU1In0.ynsqw5zprnPQtppow--6SFIuw1d30xpdCqZ_k9Rru5U",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs",
+                "label": "IT"
+            },
+            "redirect_url": "https://www.adzuna.pl/details/5842841955?utm_medium=api&utm_source=227b256d",
+            "location": {
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "display_name": "Wrocław, dolnośląskie",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "salary_is_predicted": "0",
+            "longitude": 17.03854,
+            "latitude": 51.10789,
+            "description": "Data Platform Developer and Analyst | Branża bankowa Miejsce pracy: Wrocław Technologie, których używamy Wymagane Kafka Streams kSQL Spring Boot GraphQL Python Prometheus Grafana OpenTelemetry Jira Confluence O projekcie Nasz Klient to jeden z wiodących banków uniwersalnych w Polsce, należący do międzynarodowej grupy finansowej. Organizacja oferuje kompleksowe usługi bankowe dla klientów indywidualnych oraz biznesowych, rozwijając nowoczesne rozwiązania w obszarze bankowości codziennej, finanso…",
+            "id": "5842841955",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Edge One Solutions Sp. z o.o."
+            },
+            "__CLASS__": "Adzuna::API::Response::Job"
+        },
+        {
+            "salary_is_predicted": "0",
+            "location": {
+                "display_name": "Wrocław, dolnośląskie",
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "redirect_url": "https://www.adzuna.pl/details/5833045617?utm_medium=api&utm_source=227b256d",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamtHY1RoaXQ4Ukc3TXI1R0MtQThjZyIsImkiOiI1ODMzMDQ1NjE3In0.wwlnB5kDgx0Z42bHT5J7NNUHGFQtqVODRv6Cm9e0lTc",
+            "category": {
+                "label": "Unknown",
+                "tag": "unknown",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "title": "Analyst, Finance Master Data Management - Fixed Term Contract until 31/12/2027",
+            "created": "2026-08-08T07:36:53Z",
+            "id": "5833045617",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "display_name": "BD ",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "description": "We are the people who give possibilities purpose BD is one of the largest global medical technology companies in the world. Advancing the world of health is our Purpose, and it's no small feat. It takes the imagination and passion of all of us-from design and engineering to the manufacturing and marketing of our billions of MedTech products per year-to look at the impossible and find transformative solutions that turn dreams into possibilities. Job Description Team Overview The Global Finance S…",
+            "latitude": 51.10789,
+            "longitude": 17.03854
+        },
+        {
+            "title": "Product Stewardship Data Analytics Support",
+            "created": "2026-08-06T07:36:23Z",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiamtHY1RoaXQ4Ukc3TXI1R0MtQThjZyIsImkiOiI1ODMwMTE0OTE4In0.lv7xv78JDQHbuOvKRc0UHs0TTfhU8xofsUUnar3wIaU",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Unknown",
+                "tag": "unknown"
+            },
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Wrocław, dolnośląskie",
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ]
+            },
+            "redirect_url": "https://www.adzuna.pl/details/5830114918?utm_medium=api&utm_source=227b256d",
+            "salary_is_predicted": "0",
+            "longitude": 17.03854,
+            "description": "We are the people who give possibilities purpose BD is one of the largest global medical technology companies in the world. Advancing the world of health is our Purpose, and it's no small feat. It takes the imagination and passion of all of us-from design and engineering to the manufacturing and marketing of our billions of MedTech products per year-to look at the impossible and find transformative solutions that turn dreams into possibilities. Job Description Job Description: The Data Analytic…",
+            "latitude": 51.10789,
+            "company": {
+                "display_name": "BD ",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5830114918"
+        }
+    ]
+}
