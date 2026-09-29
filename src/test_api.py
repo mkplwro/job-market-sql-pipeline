@@ -1,5 +1,4 @@
 import os
-import json
 import requests
 from dotenv import load_dotenv
 
@@ -19,7 +18,11 @@ params = {
     "content-type": "application/json",
 }
 
-response = requests.get(url, params=params)
+response = requests.get(
+    url,
+    params=params,
+    timeout=30
+)
 
 print("Status:", response.status_code)
 
@@ -27,11 +30,6 @@ response.raise_for_status()
 
 data = response.json()
 
-print("Liczba ofert:", data["count"])
-
-output_path = "data/raw/jobs_wroclaw_data_analyst.json"
-
-with open(output_path, "w", encoding="utf-8") as file:
-    json.dump(data, file, ensure_ascii=False, indent=4)
-
-print(f"Dane zapisane do: {output_path}")
+print("API works correctly")
+print("Number of results available in the API:", data.get("count"))
+print("Number of offers downloaded:", len(data.get("results", [])))
