@@ -2,197 +2,266 @@
     "api_total_count": 14,
     "results": [
         {
-            "redirect_url": "https://www.adzuna.pl/details/5855572777?utm_medium=api&utm_source=227b256d",
+            "contract_time": "full_time",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Fetcherr"
+            },
+            "id": "5855572777",
             "location": {
-                "display_name": "Wrocław, dolnośląskie",
                 "area": [
                     "Polska",
                     "dolnośląskie",
                     "Wrocław"
                 ],
-                "__CLASS__": "Adzuna::API::Response::Location"
-            },
-            "id": "5855572777",
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "Fetcherr"
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Wrocław, dolnośląskie"
             },
             "latitude": 51.11201,
-            "contract_time": "full_time",
             "__CLASS__": "Adzuna::API::Response::Job",
-            "salary_is_predicted": "0",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1NTU3Mjc3NyIsInMiOiJpUFRaWG82LThSR0ZNWXhKbXF3VlB3In0.lNZC1O8hO_hju4LRdrszHvriQ-7BifnNJ0cuqrasRgY",
+            "description": "Fetcherr builds responsible AI that transforms market complexity into measurable profit growth. At the core of the company is the Market Model - a proprietary AI-powered model delivering accurate, granular demand predictions with 96% forecast accuracy and real-time decision intelligence for commercial teams. Built on a glass-box architecture, it uses market data - not personal data - with full transparency into logic and outcomes. First deployed in global aviation, the technology is industry-ag…",
+            "title": "Data Analyst- Tableau",
+            "redirect_url": "https://www.adzuna.pl/details/5855572777?utm_medium=api&utm_source=227b256d",
+            "created": "2026-08-25T17:48:37Z",
             "category": {
-                "label": "Unknown",
                 "tag": "unknown",
+                "label": "Unknown",
                 "__CLASS__": "Adzuna::API::Response::Category"
             },
-            "description": "Fetcherr builds responsible AI that transforms market complexity into measurable profit growth. At the core of the company is the Market Model - a proprietary AI-powered model delivering accurate, granular demand predictions with 96% forecast accuracy and real-time decision intelligence for commercial teams. Built on a glass-box architecture, it uses market data - not personal data - with full transparency into logic and outcomes. First deployed in global aviation, the technology is industry-ag…",
-            "created": "2026-08-25T17:48:37Z",
-            "title": "Data Analyst- Tableau",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg1NTU3Mjc3NyIsInMiOiIwQk9fazQtLThSR1R5dlRINXFSUTdBIn0.EYll9q2LA7TFJN6iAo_fb95fGnNRpFUk1TXbW_RQxfc",
+            "salary_is_predicted": "0",
             "longitude": 17.01874
         },
         {
-            "longitude": 17.03854,
-            "title": "Business Data Analyst",
-            "created": "2026-08-20T17:49:59Z",
-            "category": {
-                "label": "Unknown",
-                "tag": "unknown",
-                "__CLASS__": "Adzuna::API::Response::Category"
-            },
-            "description": "Ready for a challenge? Then Pyszne.pl might be the place for you. We’re a leading global online delivery platform, and our vision is to empower everyday convenience. Whether it’s a Friday-night feast, a post-gym poke bowl, or grabbing some groceries, our tech platform connects tens of millions of customers with hundreds of thousands of restaurant, grocery and convenience partners across the globe. About this role To make our customers and partners happy we are relying heavily on insights hidden…",
             "contract_time": "full_time",
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "salary_is_predicted": "0",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0OTgwMzc0MiIsInMiOiJpUFRaWG82LThSR0ZNWXhKbXF3VlB3In0.DHcP3XCCQrQvwxtnG9LJNtil0OStBxsy-HaWdOLQLWI",
             "company": {
                 "display_name": "Just Eat",
                 "__CLASS__": "Adzuna::API::Response::Company"
             },
             "id": "5849803742",
             "location": {
-                "display_name": "Wrocław, dolnośląskie",
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "area": [
-                    "Polska",
-                    "dolnośląskie",
-                    "Wrocław"
-                ]
-            },
-            "latitude": 51.10789,
-            "redirect_url": "https://www.adzuna.pl/details/5849803742?utm_medium=api&utm_source=227b256d"
-        },
-        {
-            "redirect_url": "https://www.adzuna.pl/details/5848095644?utm_medium=api&utm_source=227b256d",
-            "id": "5848095644",
-            "location": {
                 "area": [
                     "Polska",
                     "dolnośląskie",
                     "Wrocław"
                 ],
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "display_name": "Wrocław, dolnośląskie"
-            },
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "Capgemini"
+                "display_name": "Wrocław, dolnośląskie",
+                "__CLASS__": "Adzuna::API::Response::Location"
             },
             "latitude": 51.10789,
             "__CLASS__": "Adzuna::API::Response::Job",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0ODA5NTY0NCIsInMiOiJpUFRaWG82LThSR0ZNWXhKbXF3VlB3In0.FAqMSQOlhd4M12f23asVcP28Q6GNqbmpGdwgFdqNjRc",
-            "salary_is_predicted": "0",
+            "description": "Ready for a challenge? Then Pyszne.pl might be the place for you. We’re a leading global online delivery platform, and our vision is to empower everyday convenience. Whether it’s a Friday-night feast, a post-gym poke bowl, or grabbing some groceries, our tech platform connects tens of millions of customers with hundreds of thousands of restaurant, grocery and convenience partners across the globe. About this role To make our customers and partners happy we are relying heavily on insights hidden…",
+            "title": "Business Data Analyst",
+            "redirect_url": "https://www.adzuna.pl/details/5849803742?utm_medium=api&utm_source=227b256d",
             "category": {
-                "label": "IT",
-                "tag": "it-jobs",
-                "__CLASS__": "Adzuna::API::Response::Category"
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Unknown",
+                "tag": "unknown"
             },
-            "description": "Choosing Capgemini means choosing a company where you will be empowered to shape your career in the way you’d like, where you’ll be supported and inspired by a collaborative community of colleagues around the world, and where you’ll be able to reimagine what’s possible. Join us and help the world’s leading organizations unlock the value of technology and build a more sustainable, more inclusive world. Your role As a Business Data Analyst, you will have the opportunity to work on a wide range o …",
-            "created": "2026-08-19T13:00:28Z",
-            "title": "Business Data Analyst ServiceNow",
+            "created": "2026-08-20T17:49:59Z",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0OTgwMzc0MiIsInMiOiIwQk9fazQtLThSR1R5dlRINXFSUTdBIn0.yQfEIlsI1PnhPFSq4PeGpM47wtHq1YDBR81Ey-IBFa0",
+            "salary_is_predicted": "0",
             "longitude": 17.03854
         },
         {
-            "latitude": 51.10789,
-            "id": "5834199195",
-            "company": {
-                "display_name": "Antal",
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
-            "location": {
-                "display_name": "Wrocław, dolnośląskie",
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "area": [
-                    "Polska",
-                    "dolnośląskie",
-                    "Wrocław"
-                ]
-            },
-            "redirect_url": "https://www.adzuna.pl/details/5834199195?utm_medium=api&utm_source=227b256d",
-            "description": "Undergraduate degree (degree in business analytics, statistics, math, or computer science is preferred). 2 years of experience in an analytical role (experience in People/HR analytics is a significant advantage). Strong technical skills: PowerApps (Power BI, Power Query, Power Automate) , Advanced Excel, and Advanced PowerPoint. Superb analytical skills with hands-on experience in cleaning, manipulating, and combining large datasets. Excellent written and verbal communication skills with the ab…",
-            "category": {
-                "label": "IT",
-                "tag": "it-jobs",
-                "__CLASS__": "Adzuna::API::Response::Category"
-            },
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgzNDE5OTE5NSIsInMiOiJpUFRaWG82LThSR0ZNWXhKbXF3VlB3In0.JDrg-q8jVnFOAM59QmSyrm86iBR07MmszWAjwsNeQIs",
-            "salary_is_predicted": "0",
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "contract_time": "full_time",
-            "longitude": 17.03854,
-            "title": "HR Data Analyst @ Antal",
-            "created": "2026-08-09T03:47:31Z"
-        },
-        {
-            "redirect_url": "https://www.adzuna.pl/details/5829010846?utm_medium=api&utm_source=227b256d",
-            "location": {
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "area": [
-                    "Polska",
-                    "dolnośląskie",
-                    "Wrocław"
-                ],
-                "display_name": "Wrocław, dolnośląskie"
-            },
-            "id": "5829010846",
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "Capgemini"
-            },
-            "latitude": 51.10789,
-            "created": "2026-08-05T12:54:52Z",
-            "title": "Data Analyst Process Mining BI",
-            "longitude": 17.03854,
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiaVBUWlhvNi04UkdGTVl4Sm1xd1ZQdyIsImkiOiI1ODI5MDEwODQ2In0.StL_amzZrQdtugEcyQ9q3nt25mOOAdbtYzFPtcaMjkA",
-            "salary_is_predicted": "0",
+            "created": "2026-08-19T13:00:28Z",
             "category": {
                 "__CLASS__": "Adzuna::API::Response::Category",
                 "label": "IT",
                 "tag": "it-jobs"
             },
-            "description": "Choosing Capgemini means choosing a company where you will be empowered to shape your career in the way you’d like, where you’ll be supported and inspired by a collaborative community of colleagues around the world, and where you’ll be able to reimagine what’s possible. Join us and help the world’s leading organizations unlock the value of technology and build a more sustainable, more inclusive world. Your role As a Data Analyst you will lead complex process mining programs and ensure high-qual…"
+            "title": "Business Data Analyst ServiceNow",
+            "redirect_url": "https://www.adzuna.pl/details/5848095644?utm_medium=api&utm_source=227b256d",
+            "longitude": 17.03854,
+            "salary_is_predicted": "0",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMEJPX2s0LS04UkdUeXZUSDVxUlE3QSIsImkiOiI1ODQ4MDk1NjQ0In0.Stiew0i5y-Cb_-9ZUDhrtpHcdY2obp9k_-JCCXbobY0",
+            "location": {
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "display_name": "Wrocław, dolnośląskie",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "company": {
+                "display_name": "Capgemini",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "id": "5848095644",
+            "description": "Choosing Capgemini means choosing a company where you will be empowered to shape your career in the way you’d like, where you’ll be supported and inspired by a collaborative community of colleagues around the world, and where you’ll be able to reimagine what’s possible. Join us and help the world’s leading organizations unlock the value of technology and build a more sustainable, more inclusive world. Your role As a Business Data Analyst, you will have the opportunity to work on a wide range o …",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "latitude": 51.10789
         },
         {
-            "created": "2026-08-30T17:49:33Z",
-            "longitude": 17.03854,
-            "title": "(Associate) Specialist, Data Analyst & Analytics Engineering",
-            "contract_time": "full_time",
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiaVBUWlhvNi04UkdGTVl4Sm1xd1ZQdyIsImkiOiI1ODYyMzMzMjk3In0.fv_CZ71gYmmyQ9sPP_49g8djEfaqrpayOoeKlVEv3a0",
             "salary_is_predicted": "0",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMEJPX2s0LS04UkdUeXZUSDVxUlE3QSIsImkiOiI1ODM0MTk5MTk1In0.Bot3X8NLwTItPCZdlLwHMvSTpqKBMlcyasTex93Qh7c",
+            "longitude": 17.03854,
             "category": {
-                "tag": "pr-advertising-marketing-jobs",
-                "label": "PR, reklama, marketing",
-                "__CLASS__": "Adzuna::API::Response::Category"
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "IT",
+                "tag": "it-jobs"
             },
-            "description": "Overview At QIAGEN, we are driven by a simple but powerful vision: making improvements in life possible. We’re dedicated to revolutionizing science and healthcare for the better. From our entrepreneurial roots to our current global presence, we've grown into a force for positive change. With thousands of employees across six continents, collaboration is our greatest strength. We’re always striving to identify talented individuals to join our exceptional teams. We have played a pivotal role in s…",
+            "created": "2026-08-09T03:47:31Z",
+            "title": "HR Data Analyst @ Antal",
+            "redirect_url": "https://www.adzuna.pl/details/5834199195?utm_medium=api&utm_source=227b256d",
+            "latitude": 51.10789,
+            "description": "Undergraduate degree (degree in business analytics, statistics, math, or computer science is preferred). 2 years of experience in an analytical role (experience in People/HR analytics is a significant advantage). Strong technical skills: PowerApps (Power BI, Power Query, Power Automate) , Advanced Excel, and Advanced PowerPoint. Superb analytical skills with hands-on experience in cleaning, manipulating, and combining large datasets. Excellent written and verbal communication skills with the ab…",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "contract_time": "full_time",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Antal"
+            },
+            "id": "5834199195",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Wrocław, dolnośląskie",
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ]
+            }
+        },
+        {
+            "latitude": 51.10789,
+            "description": "Choosing Capgemini means choosing a company where you will be empowered to shape your career in the way you’d like, where you’ll be supported and inspired by a collaborative community of colleagues around the world, and where you’ll be able to reimagine what’s possible. Join us and help the world’s leading organizations unlock the value of technology and build a more sustainable, more inclusive world. Your role As a Data Analyst you will lead complex process mining programs and ensure high-qual…",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5829010846",
+            "company": {
+                "display_name": "Capgemini",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "location": {
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "display_name": "Wrocław, dolnośląskie",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "salary_is_predicted": "0",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMEJPX2s0LS04UkdUeXZUSDVxUlE3QSIsImkiOiI1ODI5MDEwODQ2In0.8FLUf9_y0g80v1oXfeifuKDahRoLfF8UJj2ulHKSGEg",
+            "longitude": 17.03854,
+            "created": "2026-08-05T12:54:52Z",
+            "category": {
+                "label": "IT",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs"
+            },
+            "redirect_url": "https://www.adzuna.pl/details/5829010846?utm_medium=api&utm_source=227b256d",
+            "title": "Data Analyst Process Mining BI"
+        },
+        {
+            "title": "(Associate) Specialist, Data Analyst & Analytics Engineering",
             "redirect_url": "https://www.adzuna.pl/details/5862333297?utm_medium=api&utm_source=227b256d",
+            "created": "2026-08-30T17:49:33Z",
+            "category": {
+                "label": "PR, reklama, marketing",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "pr-advertising-marketing-jobs"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMEJPX2s0LS04UkdUeXZUSDVxUlE3QSIsImkiOiI1ODYyMzMzMjk3In0.6LyLUI24NrzqeQ9JUwrmvA9v0s2TN13DWD68cpiADBc",
+            "salary_is_predicted": "0",
+            "longitude": 17.03854,
+            "contract_time": "full_time",
             "company": {
                 "__CLASS__": "Adzuna::API::Response::Company",
                 "display_name": "QIAGEN Wroclawz.o.o."
             },
             "id": "5862333297",
             "location": {
-                "__CLASS__": "Adzuna::API::Response::Location",
                 "area": [
                     "Polska",
                     "dolnośląskie",
                     "Wrocław"
                 ],
-                "display_name": "Wrocław, dolnośląskie"
+                "display_name": "Wrocław, dolnośląskie",
+                "__CLASS__": "Adzuna::API::Response::Location"
             },
-            "latitude": 51.10789
+            "latitude": 51.10789,
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "description": "Overview At QIAGEN, we are driven by a simple but powerful vision: making improvements in life possible. We’re dedicated to revolutionizing science and healthcare for the better. From our entrepreneurial roots to our current global presence, we've grown into a force for positive change. With thousands of employees across six continents, collaboration is our greatest strength. We’re always striving to identify talented individuals to join our exceptional teams. We have played a pivotal role in s…"
         },
         {
-            "redirect_url": "https://www.adzuna.pl/details/5888927985?utm_medium=api&utm_source=227b256d",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "description": "Data Scientist / Data Analyst (m/k/n) Miejsce pracy: Wrocław Technologie, których używamy Wymagane Python HTML CSS JavaScript Git O projekcie Poszukujemy doświadczonego Data Scientista do międzynarodowego projektu realizowanego dla dużej organizacji sektora publicznego na poziomie europejskim. Osoba na tym stanowisku będzie odpowiedzialna za pozyskiwanie, integrację i analizę danych związanych z europejską bioekonomią oraz sektorem rolnym, wspierając tworzenie analiz i rekomendacji wykorzystywa…",
             "latitude": 51.10789,
+            "location": {
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Wrocław, dolnośląskie"
+            },
+            "id": "5888927985",
             "company": {
                 "__CLASS__": "Adzuna::API::Response::Company",
                 "display_name": "UPVANTA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
             },
-            "id": "5888927985",
+            "longitude": 17.03854,
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMEJPX2s0LS04UkdUeXZUSDVxUlE3QSIsImkiOiI1ODg4OTI3OTg1In0.Z_XTtKrbLOJr9lpXoxi8BBulNUd6g7EC_Jp2vz1lBZ8",
+            "salary_is_predicted": "0",
+            "title": "Data Scientist / Data Analyst (m/k/n)",
+            "redirect_url": "https://www.adzuna.pl/details/5888927985?utm_medium=api&utm_source=227b256d",
+            "category": {
+                "tag": "it-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "IT"
+            },
+            "created": "2026-09-18T10:16:51Z"
+        },
+        {
+            "category": {
+                "tag": "unknown",
+                "label": "Unknown",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "created": "2026-09-26T07:55:17Z",
+            "redirect_url": "https://www.adzuna.pl/details/5899334116?utm_medium=api&utm_source=227b256d",
+            "title": "EMEA Commercial Excellence Data Analyst: Finance Integration",
+            "longitude": 17.03854,
+            "salary_is_predicted": "0",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg5OTMzNDExNiIsInMiOiIwQk9fazQtLThSR1R5dlRINXFSUTdBIn0.Wf1Dgr5ej_3u-lZWmYONFa75xVBBJR9P_-X34F6mJeY",
+            "location": {
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ],
+                "display_name": "Wrocław, dolnośląskie",
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "id": "5899334116",
+            "company": {
+                "display_name": "BD ",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "description": "As a result of the combination of the BD Biosciences and Diagnostic Solutions business with Waters Corporation (NYSE: WAT), by applying to this role, you will be applying for a position with Waters. Waters is a global leader in life sciences, dedicated to accelerating the benefits of pioneering science through analytical technologies, informatics, and service. With a focus on regulated, high-volume testing environments, Waters' innovative portfolio harnesses deep scientific expertise across bio…",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "latitude": 51.10789
+        },
+        {
+            "category": {
+                "tag": "accounting-finance-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Księgowość i finanse"
+            },
+            "created": "2026-09-11T22:07:32Z",
+            "redirect_url": "https://www.adzuna.pl/details/5880102930?utm_medium=api&utm_source=227b256d",
+            "title": "Data Analyst - Control Management & Risk (f/m/x)",
+            "salary_is_predicted": "0",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMEJPX2s0LS04UkdUeXZUSDVxUlE3QSIsImkiOiI1ODgwMTAyOTMwIn0.YPY8ZX_J_oPZa_BzGH456_ZDXn2r-DZduBEcfZ2_SEg",
+            "longitude": 17.03854,
+            "company": {
+                "display_name": "Sii Sp. z o.o.",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "id": "5880102930",
             "location": {
                 "display_name": "Wrocław, dolnośląskie",
                 "__CLASS__": "Adzuna::API::Response::Location",
@@ -202,173 +271,118 @@
                     "Wrocław"
                 ]
             },
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiaVBUWlhvNi04UkdGTVl4Sm1xd1ZQdyIsImkiOiI1ODg4OTI3OTg1In0.pZCi4s0G5-GWet3RHnzevhQF1mdLxBymy_idwxXqDgY",
-            "salary_is_predicted": "0",
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "description": "Data Scientist / Data Analyst (m/k/n) Miejsce pracy: Wrocław Technologie, których używamy Wymagane Python HTML CSS JavaScript Git O projekcie Poszukujemy doświadczonego Data Scientista do międzynarodowego projektu realizowanego dla dużej organizacji sektora publicznego na poziomie europejskim. Osoba na tym stanowisku będzie odpowiedzialna za pozyskiwanie, integrację i analizę danych związanych z europejską bioekonomią oraz sektorem rolnym, wspierając tworzenie analiz i rekomendacji wykorzystywa…",
-            "category": {
-                "tag": "it-jobs",
-                "label": "IT",
-                "__CLASS__": "Adzuna::API::Response::Category"
-            },
-            "created": "2026-09-18T10:16:51Z",
-            "longitude": 17.03854,
-            "title": "Data Scientist / Data Analyst (m/k/n)"
+            "latitude": 51.10789,
+            "description": "Data Analyst - Control Management & Risk (f/m/x) Miejsce pracy: Wrocław Your responsibilities Analyze large and complex datasets to identify trends, risks, and opportunities Develop dashboards, reports, and management information solutions Transform data into actionable insights and recommendations for senior stakeholders Design and enhance key risk, performance, and control metrics Support data-driven decision-making across global teams Collaborate with Data Engineers and business stakeholders…",
+            "__CLASS__": "Adzuna::API::Response::Job"
         },
         {
+            "description": "As a result of the combination of the BD Biosciences and Diagnostic Solutions business with Waters Corporation (NYSE: WAT), by applying to this role, you will be applying for a position with Waters. Waters is a global leader in life sciences, dedicated to accelerating the benefits of pioneering science through analytical technologies, informatics, and service. With a focus on regulated, high-volume testing environments, Waters' innovative portfolio harnesses deep scientific expertise across bio…",
+            "__CLASS__": "Adzuna::API::Response::Job",
             "latitude": 51.10789,
-            "id": "5899334116",
             "location": {
+                "display_name": "Wrocław, dolnośląskie",
                 "__CLASS__": "Adzuna::API::Response::Location",
                 "area": [
                     "Polska",
                     "dolnośląskie",
                     "Wrocław"
-                ],
-                "display_name": "Wrocław, dolnośląskie"
+                ]
             },
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "BD "
-            },
-            "redirect_url": "https://www.adzuna.pl/details/5899334116?utm_medium=api&utm_source=227b256d",
-            "title": "EMEA Commercial Excellence Data Analyst: Finance Integration",
-            "longitude": 17.03854,
-            "created": "2026-09-26T07:55:17Z",
-            "description": "As a result of the combination of the BD Biosciences and Diagnostic Solutions business with Waters Corporation (NYSE: WAT), by applying to this role, you will be applying for a position with Waters. Waters is a global leader in life sciences, dedicated to accelerating the benefits of pioneering science through analytical technologies, informatics, and service. With a focus on regulated, high-volume testing environments, Waters' innovative portfolio harnesses deep scientific expertise across bio…",
-            "category": {
-                "tag": "unknown",
-                "label": "Unknown",
-                "__CLASS__": "Adzuna::API::Response::Category"
-            },
-            "salary_is_predicted": "0",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg5OTMzNDExNiIsInMiOiJpUFRaWG82LThSR0ZNWXhKbXF3VlB3In0.01e6ZMTpYDBN3iqL9lsHjHgb-eJv65BrrjFzaEl-GHw",
-            "__CLASS__": "Adzuna::API::Response::Job"
-        },
-        {
-            "description": "Data Analyst - Control Management & Risk (f/m/x) Miejsce pracy: Wrocław Your responsibilities Analyze large and complex datasets to identify trends, risks, and opportunities Develop dashboards, reports, and management information solutions Transform data into actionable insights and recommendations for senior stakeholders Design and enhance key risk, performance, and control metrics Support data-driven decision-making across global teams Collaborate with Data Engineers and business stakeholders…",
-            "category": {
-                "__CLASS__": "Adzuna::API::Response::Category",
-                "label": "Księgowość i finanse",
-                "tag": "accounting-finance-jobs"
-            },
-            "salary_is_predicted": "0",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg4MDEwMjkzMCIsInMiOiJpUFRaWG82LThSR0ZNWXhKbXF3VlB3In0.G0q6zX7Iy_xqvXuc9JaafD8twf-OH7pGRm7XJ84s6xs",
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "title": "Data Analyst - Control Management & Risk (f/m/x)",
-            "longitude": 17.03854,
-            "created": "2026-09-11T22:07:32Z",
-            "latitude": 51.10789,
-            "id": "5880102930",
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "Sii Sp. z o.o."
-            },
-            "location": {
-                "display_name": "Wrocław, dolnośląskie",
-                "area": [
-                    "Polska",
-                    "dolnośląskie",
-                    "Wrocław"
-                ],
-                "__CLASS__": "Adzuna::API::Response::Location"
-            },
-            "redirect_url": "https://www.adzuna.pl/details/5880102930?utm_medium=api&utm_source=227b256d"
-        },
-        {
-            "redirect_url": "https://www.adzuna.pl/details/5899334109?utm_medium=api&utm_source=227b256d",
             "id": "5899334109",
             "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "BD "
+                "display_name": "BD ",
+                "__CLASS__": "Adzuna::API::Response::Company"
             },
+            "longitude": 17.03854,
+            "salary_is_predicted": "0",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg5OTMzNDEwOSIsInMiOiIwQk9fazQtLThSR1R5dlRINXFSUTdBIn0.y0vH7EzRNNVVntFrjbAxUoinrvmjthoIeJ22xYBaKQg",
+            "category": {
+                "label": "Unknown",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "unknown"
+            },
+            "created": "2026-09-26T07:55:17Z",
+            "title": "WBD EMEA Commercial Excellence Data Analyst: Commercial Integration",
+            "redirect_url": "https://www.adzuna.pl/details/5899334109?utm_medium=api&utm_source=227b256d"
+        },
+        {
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Ten Square Games"
+            },
+            "id": "5818296173",
             "location": {
-                "display_name": "Wrocław, dolnośląskie",
                 "area": [
                     "Polska",
                     "dolnośląskie",
                     "Wrocław"
                 ],
+                "display_name": "Wrocław, dolnośląskie",
                 "__CLASS__": "Adzuna::API::Response::Location"
             },
             "latitude": 51.10789,
-            "created": "2026-09-26T07:55:17Z",
-            "longitude": 17.03854,
-            "title": "WBD EMEA Commercial Excellence Data Analyst: Commercial Integration",
+            "description": "HYBRID WORK MODEL: 3 DAYS PER WEEK (60%) IN OUR WROCLAW OFFICE AND 2 DAYS REMOTE About us Hi, we are Ten Square Games, and we live games! No, not a typo - but a level up from loving! We are on a mission of giving players excellent outdoor experiences on their mobiles. With global hits, such as Fishing Clash, we know how to make the best of technology, fun, and fair play. With 77 million registered players in 2024 and 300 people on board, we keep growing and learning, having the insatiable hunge…",
             "__CLASS__": "Adzuna::API::Response::Job",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg5OTMzNDEwOSIsInMiOiJpUFRaWG82LThSR0ZNWXhKbXF3VlB3In0.kTbr0HZtJBl_AqSmTKPTJbIGjJkVTujeZpnVQ4NUYCA",
-            "salary_is_predicted": "0",
+            "created": "2026-07-28T12:50:56Z",
             "category": {
-                "tag": "unknown",
-                "label": "Unknown",
+                "tag": "it-jobs",
+                "label": "IT",
                 "__CLASS__": "Adzuna::API::Response::Category"
             },
-            "description": "As a result of the combination of the BD Biosciences and Diagnostic Solutions business with Waters Corporation (NYSE: WAT), by applying to this role, you will be applying for a position with Waters. Waters is a global leader in life sciences, dedicated to accelerating the benefits of pioneering science through analytical technologies, informatics, and service. With a focus on regulated, high-volume testing environments, Waters' innovative portfolio harnesses deep scientific expertise across bio…"
+            "redirect_url": "https://www.adzuna.pl/details/5818296173?utm_medium=api&utm_source=227b256d",
+            "title": "Mid Senior Data Analyst with Python f m d",
+            "salary_is_predicted": "0",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgxODI5NjE3MyIsInMiOiIwQk9fazQtLThSR1R5dlRINXFSUTdBIn0.zBXcksjqTBk1IiL7Me5xNq3QP5zHznr7SiBpRUqMf1c",
+            "longitude": 17.03854
         },
         {
+            "latitude": 51.10789,
+            "description": "Do zespołu Data Platform poszukujemy programisty-analityka, który nie tylko będzie budował nowoczesne rozwiązania oparte na Apache Kafka, Kafka Connect, Spring Boot, MongoDB, GraphQL i Apache Iceberg, ale także będzie odpowiedzialny za analizę wymagań biznesowych oraz mapowanie danych pomiędzy systemami źródłowymi, platformą streamingową i bazą ODS opartą o MongoDB i usługi graphQL. Idealny kandydat potrafi rozmawiać z interesariuszami, przekształcać ich potrzeby w techniczne specyfikacje oraz …",
             "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "5840228634",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Upvanta sp. z o.o."
+            },
+            "location": {
+                "display_name": "Wrocław, dolnośląskie",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Polska",
+                    "dolnośląskie",
+                    "Wrocław"
+                ]
+            },
+            "salary_min": 277200,
             "salary_is_predicted": "0",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTgxODI5NjE3MyIsInMiOiJpUFRaWG82LThSR0ZNWXhKbXF3VlB3In0.h63fzbXcL-nzhzXUd_xy_FK9duf5gLGwaa4tc7-N8Jc",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MDIyODYzNCIsInMiOiIwQk9fazQtLThSR1R5dlRINXFSUTdBIn0.lRCUh1-rJUldjpBl05vulkDyX6oZMdSuBd3CAPWyLXQ",
+            "longitude": 17.03854,
+            "created": "2026-08-13T12:57:07Z",
             "category": {
                 "__CLASS__": "Adzuna::API::Response::Category",
                 "label": "IT",
                 "tag": "it-jobs"
             },
-            "description": "HYBRID WORK MODEL: 3 DAYS PER WEEK (60%) IN OUR WROCLAW OFFICE AND 2 DAYS REMOTE About us Hi, we are Ten Square Games, and we live games! No, not a typo - but a level up from loving! We are on a mission of giving players excellent outdoor experiences on their mobiles. With global hits, such as Fishing Clash, we know how to make the best of technology, fun, and fair play. With 77 million registered players in 2024 and 300 people on board, we keep growing and learning, having the insatiable hunge…",
-            "created": "2026-07-28T12:50:56Z",
-            "title": "Mid Senior Data Analyst with Python f m d",
-            "longitude": 17.03854,
-            "redirect_url": "https://www.adzuna.pl/details/5818296173?utm_medium=api&utm_source=227b256d",
-            "id": "5818296173",
-            "location": {
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "area": [
-                    "Polska",
-                    "dolnośląskie",
-                    "Wrocław"
-                ],
-                "display_name": "Wrocław, dolnośląskie"
-            },
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "Ten Square Games"
-            },
-            "latitude": 51.10789
+            "redirect_url": "https://www.adzuna.pl/details/5840228634?utm_medium=api&utm_source=227b256d",
+            "salary_max": 327600,
+            "title": "Data Platform Developer-Analyst"
         },
         {
-            "latitude": 51.10789,
-            "company": {
-                "__CLASS__": "Adzuna::API::Response::Company",
-                "display_name": "Upvanta sp. z o.o."
-            },
-            "id": "5840228634",
-            "salary_min": 277200,
-            "location": {
-                "area": [
-                    "Polska",
-                    "dolnośląskie",
-                    "Wrocław"
-                ],
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "display_name": "Wrocław, dolnośląskie"
-            },
-            "redirect_url": "https://www.adzuna.pl/details/5840228634?utm_medium=api&utm_source=227b256d",
-            "longitude": 17.03854,
-            "salary_max": 327600,
-            "title": "Data Platform Developer-Analyst",
-            "created": "2026-08-13T12:57:07Z",
-            "description": "Do zespołu Data Platform poszukujemy programisty-analityka, który nie tylko będzie budował nowoczesne rozwiązania oparte na Apache Kafka, Kafka Connect, Spring Boot, MongoDB, GraphQL i Apache Iceberg, ale także będzie odpowiedzialny za analizę wymagań biznesowych oraz mapowanie danych pomiędzy systemami źródłowymi, platformą streamingową i bazą ODS opartą o MongoDB i usługi graphQL. Idealny kandydat potrafi rozmawiać z interesariuszami, przekształcać ich potrzeby w techniczne specyfikacje oraz …",
+            "created": "2026-08-13T12:57:47Z",
             "category": {
                 "tag": "it-jobs",
-                "label": "IT",
-                "__CLASS__": "Adzuna::API::Response::Category"
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "IT"
             },
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MDIyODYzNCIsInMiOiJpUFRaWG82LThSR0ZNWXhKbXF3VlB3In0.CkgREG50YnJ-t5mgUIV5MnlYiaDIHo9TyOYQ8l9vK7A",
-            "salary_is_predicted": "0",
-            "__CLASS__": "Adzuna::API::Response::Job"
-        },
-        {
             "redirect_url": "https://www.adzuna.pl/details/5840228926?utm_medium=api&utm_source=227b256d",
+            "title": "Data Platform Developer and Analyst | Branża bankowa",
+            "salary_is_predicted": "0",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMEJPX2s0LS04UkdUeXZUSDVxUlE3QSIsImkiOiI1ODQwMjI4OTI2In0.HICc2pynfltZe8HqMrQmJ5Ln6ZlTja6pQc2dJzIAzrg",
+            "longitude": 17.03854,
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Edge One Solutions Sp. z o.o"
+            },
             "id": "5840228926",
             "location": {
                 "area": [
@@ -379,53 +393,39 @@
                 "__CLASS__": "Adzuna::API::Response::Location",
                 "display_name": "Wrocław, dolnośląskie"
             },
-            "company": {
-                "display_name": "Edge One Solutions Sp. z o.o",
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
             "latitude": 51.10789,
-            "created": "2026-08-13T12:57:47Z",
-            "title": "Data Platform Developer and Analyst | Branża bankowa",
-            "longitude": 17.03854,
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg0MDIyODkyNiIsInMiOiJpUFRaWG82LThSR0ZNWXhKbXF3VlB3In0.S3UcnwFc29Xz7L_EiCMPzwKmANKYE5PEpznY_0DW4-0",
-            "salary_is_predicted": "0",
-            "category": {
-                "tag": "it-jobs",
-                "label": "IT",
-                "__CLASS__": "Adzuna::API::Response::Category"
-            },
-            "description": "O nas Społeczność Edge One Solutions powstała z miłości do nowych technologii. Liczymy ponad 350 ekspertów, a w Grupie Euvic, której jesteśmy częścią, jest nas już 5500. Indywidualne podejście pozwala na dopasowanie projektów do umiejętności, przez co realnie wspieramy się w rozwoju kompetencji. O kliencie Nasz Klient to jeden z wiodących banków uniwersalnych w Polsce, należący do międzynarodowej grupy finansowej. Organizacja oferuje kompleksowe usługi bankowe dla klientów indywidualnych oraz b…"
+            "description": "O nas Społeczność Edge One Solutions powstała z miłości do nowych technologii. Liczymy ponad 350 ekspertów, a w Grupie Euvic, której jesteśmy częścią, jest nas już 5500. Indywidualne podejście pozwala na dopasowanie projektów do umiejętności, przez co realnie wspieramy się w rozwoju kompetencji. O kliencie Nasz Klient to jeden z wiodących banków uniwersalnych w Polsce, należący do międzynarodowej grupy finansowej. Organizacja oferuje kompleksowe usługi bankowe dla klientów indywidualnych oraz b…",
+            "__CLASS__": "Adzuna::API::Response::Job"
         },
         {
-            "salary_is_predicted": "0",
-            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg4ODkyODA3MyIsInMiOiJpUFRaWG82LThSR0ZNWXhKbXF3VlB3In0.MltQYvz5gZfYLn5-bjUbjBlWC6JtRfEzpC3k3SZO10M",
-            "__CLASS__": "Adzuna::API::Response::Job",
-            "description": "BI Data Engineer – ETL / Data Warehouse / Lakehouse (m/k/n) Miejsce pracy: Wrocław Technologie, których używamy Wymagane Data Lakehouse O projekcie Dla jednego z naszych klientów szukamy BI Data Engineera, który będzie odpowiedzialny za projektowanie i rozwój procesów ETL/ELT, hurtowni danych, architektury Data Lakehouse oraz rozwiązań BI. To rola łącząca Data Engineering, Business Intelligence, Data Warehousing i Data Governance. Będziesz pracować zarówno nad warstwą danych i pipeline'ami, jak…",
-            "category": {
-                "label": "IT",
-                "tag": "it-jobs",
-                "__CLASS__": "Adzuna::API::Response::Category"
-            },
-            "created": "2026-09-18T10:16:52Z",
-            "title": "BI Data Engineer – ETL / Data Warehouse / Lakehouse (m/k/n)",
-            "longitude": 17.03854,
-            "redirect_url": "https://www.adzuna.pl/details/5888928073?utm_medium=api&utm_source=227b256d",
-            "latitude": 51.10789,
-            "id": "5888928073",
-            "company": {
-                "display_name": "UPVANTA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ",
-                "__CLASS__": "Adzuna::API::Response::Company"
-            },
             "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Wrocław, dolnośląskie",
                 "area": [
                     "Polska",
                     "dolnośląskie",
                     "Wrocław"
-                ],
-                "__CLASS__": "Adzuna::API::Response::Location",
-                "display_name": "Wrocław, dolnośląskie"
-            }
+                ]
+            },
+            "id": "5888928073",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "UPVANTA SPÓŁKA Z OGRANICZONĄ ODPOWIEDZIALNOŚCIĄ"
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "description": "BI Data Engineer – ETL / Data Warehouse / Lakehouse (m/k/n) Miejsce pracy: Wrocław Technologie, których używamy Wymagane Data Lakehouse O projekcie Dla jednego z naszych klientów szukamy BI Data Engineera, który będzie odpowiedzialny za projektowanie i rozwój procesów ETL/ELT, hurtowni danych, architektury Data Lakehouse oraz rozwiązań BI. To rola łącząca Data Engineering, Business Intelligence, Data Warehousing i Data Governance. Będziesz pracować zarówno nad warstwą danych i pipeline'ami, jak…",
+            "latitude": 51.10789,
+            "title": "BI Data Engineer – ETL / Data Warehouse / Lakehouse (m/k/n)",
+            "redirect_url": "https://www.adzuna.pl/details/5888928073?utm_medium=api&utm_source=227b256d",
+            "category": {
+                "label": "IT",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs"
+            },
+            "created": "2026-09-18T10:16:52Z",
+            "longitude": 17.03854,
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiNTg4ODkyODA3MyIsInMiOiIwQk9fazQtLThSR1R5dlRINXFSUTdBIn0.sEMJnf6M7eCxG0H0Vz4CC4WR_rYzHFrpSi43eirri_A",
+            "salary_is_predicted": "0"
         }
     ]
 }

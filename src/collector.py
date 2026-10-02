@@ -4,6 +4,7 @@ import requests
 from dotenv import load_dotenv
 from pathlib import Path
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -95,7 +96,9 @@ def main():
         number_of_pages=number_of_pages
     )
 
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = datetime.now(
+        ZoneInfo("Europe/Warsaw")
+    ).strftime("%Y-%m-%d")
 
     output_path = (
         PROJECT_ROOT
