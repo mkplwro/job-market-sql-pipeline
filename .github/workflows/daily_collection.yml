@@ -4,14 +4,11 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "17 6 * * *"
 
 jobs:
   collect-data:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout repository
@@ -34,16 +31,14 @@ jobs:
         run: |
           python src/collector.py
 
-      - name: Commit and push collected data
+      - name: Get collection date
+        id: date
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          echo "date=$(TZ=Europe/Warsaw date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
 
-          git add data/raw/
-
-          if git diff --cached --quiet; then
-            echo "No new data to commit."
-          else
-            git commit -m "Update Adzuna collected data"
-            git push
-          fi
+      - name: Upload raw snapshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: adzuna-raw-${{ steps.date.outputs.date }}
+          path: data/raw/${{ steps.date.outputs.date }}/
+          retention-days: 30
