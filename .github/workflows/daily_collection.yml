@@ -1,4 +1,4 @@
-name: Daily Adzuna Collection
+name: Daily Adzuna Pipeline
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
     - cron: "17 6 * * *"
 
 jobs:
-  collect-data:
+  daily-pipeline:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,23 +22,16 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests python-dotenv
+          pip install requests python-dotenv pandas psycopg2-binary
 
-      - name: Run collector
+      - name: Run pipeline
         env:
           ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
           ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          CLOUD_DB_HOST: ${{ secrets.CLOUD_DB_HOST }}
+          CLOUD_DB_PORT: ${{ secrets.CLOUD_DB_PORT }}
+          CLOUD_DB_NAME: ${{ secrets.CLOUD_DB_NAME }}
+          CLOUD_DB_USER: ${{ secrets.CLOUD_DB_USER }}
+          CLOUD_DB_PASSWORD: ${{ secrets.CLOUD_DB_PASSWORD }}
         run: |
-          python src/collector.py
-
-      - name: Get collection date
-        id: date
-        run: |
-          echo "date=$(TZ=Europe/Warsaw date +'%Y-%m-%d')" >> "$GITHUB_OUTPUT"
-
-      - name: Upload raw snapshot
-        uses: actions/upload-artifact@v4
-        with:
-          name: adzuna-raw-${{ steps.date.outputs.date }}
-          path: data/raw/${{ steps.date.outputs.date }}/
-          retention-days: 30
+          python src/pipeline.py

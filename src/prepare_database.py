@@ -35,7 +35,28 @@ companies.to_csv(COMPANIES_OUTPUT_PATH, index=False, encoding="utf-8")
 locations.to_csv(LOCATIONS_OUTPUT_PATH, index=False, encoding="utf-8")
 categories.to_csv(CATEGORIES_OUTPUT_PATH, index=False, encoding="utf-8")
 
-df.to_csv(JOBS_OUTPUT_PATH, index=False, encoding="utf-8")
+jobs_columns = [
+    "id",
+    "title",
+    "company_id",
+    "location_id",
+    "category_id",
+    "salary_min",
+    "salary_max",
+    "salary_is_predicted",
+    "contract_time",
+    "created",
+    "description",
+    "redirect_url",
+]
+
+df = df[jobs_columns]
+
+df.to_csv(
+    JOBS_OUTPUT_PATH,
+    index=False,
+    encoding="utf-8"
+)
 
 print()
 print("Database preparation completed.")
