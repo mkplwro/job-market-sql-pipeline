@@ -5,6 +5,9 @@ import pandas as pd
 import psycopg2
 from dotenv import load_dotenv
 
+from datetime import datetime
+from zoneinfo import ZoneInfo
+
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
@@ -27,13 +30,26 @@ DB_CONFIG = {
 }
 
 df = pd.read_csv(INPUT_PATH)
+
 df["salary_is_predicted"] = df["salary_is_predicted"].astype(bool)
 df = df.where(pd.notna(df), None)
+
 print(f"Jobs in today's CSV: {len(df)}")
 
-connection = psycopg2.connect(**DB_CONFIG)
+snapshot_date = datetime.now(
+    ZoneInfo("Europe/Warsaw")
+).date()
+
+connection = psycopg2.connect(
+    **DB_CONFIG,
+    sslmode="require"
+)
+
 cursor = connection.cursor()
 
+# ============================================================
+# COMPANIES
+# ============================================================
 for company in df["company"].dropna().unique():
 
     cursor.execute(
@@ -69,6 +85,9 @@ for company in df["company"].dropna().unique():
             (next_id, company)
         )
 
+# ============================================================
+# LOCATIONS
+# ============================================================
 for _, row in (
     df[
         ["location", "latitude", "longitude"]
@@ -123,6 +142,9 @@ for _, row in (
             )
         )
 
+# ============================================================
+# CATEGORIES
+# ============================================================
 for _, row in (
     df[
         ["category_label", "category_tag"]
@@ -173,6 +195,9 @@ for _, row in (
             )
         )
 
+# ============================================================
+# ID MAPING
+# ============================================================
 cursor.execute(
     "SELECT company_id, company FROM companies;"
 )
@@ -181,6 +206,7 @@ company_map = {
     company: company_id
     for company_id, company in cursor.fetchall()
 }
+
 
 cursor.execute(
     """
@@ -199,6 +225,7 @@ location_map = {
     in cursor.fetchall()
 }
 
+
 cursor.execute(
     """
     SELECT category_id, category_label, category_tag
@@ -215,6 +242,9 @@ category_map = {
     in cursor.fetchall()
 }
 
+# ============================================================
+# NEW JOBS
+# ============================================================
 cursor.execute(
     "SELECT id FROM jobs;"
 )
@@ -229,6 +259,7 @@ new_jobs = df[
 ].copy()
 
 print(f"New jobs to insert: {len(new_jobs)}")
+
 
 for _, row in new_jobs.iterrows():
 
@@ -289,6 +320,39 @@ for _, row in new_jobs.iterrows():
         )
     )
 
+# ============================================================
+# JOB SNAPSHOTS
+# ============================================================
+snapshots_inserted = 0
+for job_id in df["id"].dropna().unique():
+
+    cursor.execute(
+        """
+        INSERT INTO job_snapshots (
+            job_id,
+            snapshot_date
+        )
+        VALUES (%s, %s)
+        ON CONFLICT (job_id, snapshot_date)
+        DO NOTHING;
+        """,
+        (
+            int(job_id),
+            snapshot_date
+        )
+    )
+
+    if cursor.rowcount == 1:
+        snapshots_inserted += 1
+
+
+print(
+    f"Snapshots inserted: {snapshots_inserted}"
+)
+
+# ============================================================
+# COMMIT
+# ============================================================
 connection.commit()
 
 cursor.close()
@@ -297,3 +361,4 @@ connection.close()
 print()
 print("Database load completed.")
 print(f"New jobs inserted: {len(new_jobs)}")
+print(f"New snapshots inserted: {snapshots_inserted}")
