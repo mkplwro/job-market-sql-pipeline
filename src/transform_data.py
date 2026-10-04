@@ -1,9 +1,21 @@
 import json
 import pandas as pd
 from pathlib import Path
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-INPUT_PATH = PROJECT_ROOT / "data" / "raw" / "jobs_wroclaw_data_analyst.json"
+
+today = datetime.now(
+    ZoneInfo("Europe/Warsaw")
+).strftime("%Y-%m-%d")
+INPUT_PATH = (
+    PROJECT_ROOT
+    / "data"
+    / "raw"
+    / today
+    / "jobs_wroclaw_data_analyst.json"
+)
 OUTPUT_PATH = PROJECT_ROOT / "data" / "processed" / "jobs_clean.csv"
 
 with open(INPUT_PATH, "r", encoding="utf-8") as file:

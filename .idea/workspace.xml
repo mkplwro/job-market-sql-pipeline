@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b2389fb-8986-4c7f-8781-c5e4680b6d60" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/create_cloud_tables.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/load_to_database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/migrate_local_to_cloud.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test_cloud_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/daily_collection.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/daily_collection.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/jobs_wroclaw_data_analyst.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/companies.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/companies.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/jobs_clean.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/jobs_clean.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/processed/jobs_prepared.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/processed/jobs_prepared.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prepare_database.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/prepare_database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/transform_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/transform_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,23 +38,30 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="3JzyeBe8iQCdEqqakWywRswn5xB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.collector.executor&quot;: &quot;Run&quot;,
-    &quot;Python.data_quality.executor&quot;: &quot;Run&quot;,
-    &quot;Python.prepare_database.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_api.executor&quot;: &quot;Run&quot;,
-    &quot;Python.transform_data.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.collector.executor": "Run",
+    "Python.data_quality.executor": "Run",
+    "Python.load_to_database.executor": "Run",
+    "Python.migrate_local_to_cloud.executor": "Run",
+    "Python.pipeline.executor": "Run",
+    "Python.prepare_database.executor": "Run",
+    "Python.test_api.executor": "Run",
+    "Python.test_cloud_database.executor": "Run",
+    "Python.transform_data.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
