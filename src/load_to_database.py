@@ -32,7 +32,7 @@ DB_CONFIG = {
 df = pd.read_csv(INPUT_PATH)
 
 df["salary_is_predicted"] = df["salary_is_predicted"].astype(bool)
-df = df.where(pd.notna(df), None)
+df = df.astype(object).where(pd.notna(df), None)
 
 print(f"Jobs in today's CSV: {len(df)}")
 
