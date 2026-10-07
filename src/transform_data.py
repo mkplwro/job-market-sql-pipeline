@@ -63,6 +63,7 @@ after_drop_duplicates = len(df)
 
 print(f"Duplicates removed: {before_drop_duplicates - after_drop_duplicates}")
 
+OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 df.to_csv(
     OUTPUT_PATH,
     index=False,
