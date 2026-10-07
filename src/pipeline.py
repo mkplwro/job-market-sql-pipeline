@@ -9,7 +9,6 @@ steps = [
     "collector.py",
     "transform_data.py",
     "data_quality.py",
-    "prepare_database.py",
     "load_to_database.py",
 ]
 
