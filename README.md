@@ -15,6 +15,9 @@ Adzuna API → transform (Pandas) → data quality checks → PostgreSQL (Neon)
 - **Loading** – new companies, locations, categories and jobs are added to the database. Existing records are never duplicated, so the pipeline is safe to re-run.
 - **Daily snapshots** – every run records which jobs are still active, so the data can show how long offers stay open and how the market changes over time.
 - **Automation** – GitHub Actions runs the full pipeline every day (06:17 UTC).
+- **Data scope:** N unique "data analyst" offers in Wrocław, collected daily from 2026-10-04
+(D days of snapshots). This is a small sample from one city and one search query,
+so the results describe this dataset and are not representative of the whole market.
 
 ## Database model
 
