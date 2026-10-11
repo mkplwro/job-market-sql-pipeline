@@ -1,5 +1,6 @@
 # Job Market SQL Pipeline
 [![Daily Adzuna Pipeline](https://github.com/mkplwro/job-market-sql-pipeline/actions/workflows/daily_collection.yml/badge.svg)](https://github.com/mkplwro/job-market-sql-pipeline/actions/workflows/daily_collection.yml)
+
 An automated ETL pipeline that collects data analyst job postings in Wrocław from the [Adzuna API](https://developer.adzuna.com/) and stores them in a PostgreSQL database (hosted on Neon) for SQL analysis.
 
 ## How it works
