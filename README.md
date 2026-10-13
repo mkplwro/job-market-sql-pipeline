@@ -15,9 +15,10 @@ Adzuna API → transform (Pandas) → data quality checks → PostgreSQL (Neon)
 - **Loading** – new companies, locations, categories and jobs are added to the database. Existing records are never duplicated, so the pipeline is safe to re-run.
 - **Daily snapshots** – every run records which jobs are still active, so the data can show how long offers stay open and how the market changes over time.
 - **Automation** – GitHub Actions runs the full pipeline every day (06:17 UTC).
-- **Data scope:** N unique "data analyst" offers in Wrocław, collected daily from 2026-10-04
-(D days of snapshots). This is a small sample from one city and one search query,
-so the results describe this dataset and are not representative of the whole market.
+
+## Data scope
+
+Offers are collected daily since 2026-10-04. This is a small sample from one city and one search query, so the results describe this dataset and are not representative of the whole job market.
 
 ## Database model
 
@@ -28,6 +29,20 @@ erDiagram
     categories ||--o{ jobs          : classifies
     jobs       ||--o{ job_snapshots : "seen on"
 ```
+
+## SQL analysis
+
+| File | Contents |
+|---|---|
+| [`01_schema.sql`](sql/01_schema.sql) | Table definitions, keys and constraints |
+| [`02_basic_analytics.sql`](sql/02_basic_analytics.sql) | `JOIN`s, `GROUP BY`, aggregates with `FILTER`, subqueries: market size per day, offers by category and company, salary statistics (real salaries only, predicted ones excluded), new and disappearing offers per day |
+| [`03_advanced_analytics.sql`](sql/03_advanced_analytics.sql) | CTEs and window functions on the daily snapshots |
+
+## Limitations
+
+- Small sample: one city, one search query, up to 250 offers per run.
+- An offer that disappears from the results was not necessarily filled (it may have expired or been removed), so "offer lifetime" is not "time to hire".
+- Salary figures come only from offers that state them; salaries predicted by Adzuna are excluded from salary statistics.
 
 ## Tech stack
 
@@ -60,14 +75,11 @@ pip install -r requirements.txt
 ```bash
 python src/pipeline.py
 ```
-
-## Example analysis
-
-The `sql/` folder contains queries on job counts by company and category, salary statistics (excluding salaries predicted by Adzuna), and trends based on daily snapshots, using `JOIN`s, CTEs and window functions.
+4. Run the queries from `sql/02_basic_analytics.sql` and `sql/03_advanced_analytics.sql` in any SQL client.
 
 ## Roadmap
 
-- Analysis of hiring trends and offer lifetime from snapshots
+- Longer-term trend analysis as more daily snapshots accumulate
 - Reporting and visualizations
 
 ## Status
