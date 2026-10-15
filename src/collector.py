@@ -86,9 +86,9 @@ def save_raw_data(data, output_path):
 
 
 def main():
-    number_of_pages = 5
+    number_of_pages = 20
     what = "data analyst"
-    where = "Wroclaw"
+    where = None
 
     data = collect_jobs(
         what=what,
@@ -105,7 +105,7 @@ def main():
         / "data"
         / "raw"
         / today
-        / "jobs_wroclaw_data_analyst.json"
+        / "jobs_poland_data_analyst.json"
     )
 
     save_raw_data(
@@ -116,6 +116,9 @@ def main():
     print("\nCollection completed.")
     print(f"Total offers collected: {len(data['results'])}")
     print(f"Saved to: {output_path}")
+    print(f"API total count: {data['api_total_count']}")
+    print(f"Offers collected: {len(data['results'])}")
+    print(f"Unique offers: {len({job['id'] for job in data['results']})}")
 
 
 if __name__ == "__main__":

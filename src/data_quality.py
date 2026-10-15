@@ -25,27 +25,33 @@ required_columns = [
     "title",
     "created",
 ]
+
 for column in required_columns:
     print(
         f"{column}: missing = {df[column].isna().sum()}"
     )
+
 print("\n=== CONTRACT TIME ===")
 print(
     df["contract_time"].value_counts(dropna=False)
 )
+
 print("\n=== SALARY ===")
 print(
     "Salary min missing:",
     df["salary_min"].isna().sum()
 )
+
 print(
     "Salary max missing:",
     df["salary_max"].isna().sum()
 )
+
 print(
     "Invalid salary ranges:",
     (df["salary_min"] > df["salary_max"]).sum()
 )
+
 print(
     "Salary predicted:",
     df["salary_is_predicted"].value_counts(
@@ -58,6 +64,7 @@ created = pd.to_datetime(
     df["created"],
     errors="coerce"
 )
+
 print("Invalid dates:", created.isna().sum())
 print("Earliest:", created.min())
 print("Latest:", created.max())
@@ -68,15 +75,34 @@ print(
     .head(10)
     .to_string()
 )
+
 print("\n=== LOCATIONS ===")
 print(
     df["location"]
+    .value_counts(dropna=False)
+    .head(20)
+)
+
+print("\n=== COORDINATES ===")
+print("Missing latitude:", df["latitude"].isna().sum())
+print("Missing longitude:", df["longitude"].isna().sum())
+
+print("Latitude min:", df["latitude"].min())
+print("Latitude max:", df["latitude"].max())
+print("Longitude min:", df["longitude"].min())
+print("Longitude max:", df["longitude"].max())
+
+print("\n=== CATEGORIES ===")
+print("Category labels:")
+print(
+    df["category_label"]
     .head(10)
     .to_string()
 )
-print("\n=== CATEGORIES ===")
-print("Category labels:")
-print(df["category_label"].head(10).to_string())
 
 print("\nCategory tags:")
-print(df["category_tag"].head(10).to_string())
+print(
+    df["category_tag"]
+    .head(10)
+    .to_string()
+)

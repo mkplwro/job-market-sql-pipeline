@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 
-file_path = "data/raw/jobs_wroclaw_data_analyst.json"
+file_path = "data/raw/jobs_poland_data_analyst.json"
 
 with open(file_path, "r", encoding="utf-8") as file:
     data = json.load(file)

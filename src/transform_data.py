@@ -14,7 +14,7 @@ INPUT_PATH = (
     / "data"
     / "raw"
     / today
-    / "jobs_wroclaw_data_analyst.json"
+    / "jobs_poland_data_analyst.json"
 )
 OUTPUT_PATH = PROJECT_ROOT / "data" / "processed" / "jobs_clean.csv"
 
