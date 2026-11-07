@@ -1,3 +1,4 @@
+
 import subprocess
 import sys
 from pathlib import Path
@@ -6,10 +7,10 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 PYTHON = sys.executable
 
 steps = [
-    "collector.py",
-    "transform_data.py",
-    "data_quality.py",
-    "load_to_database.py",
+    "data_collection/collector.py",
+    "data_processing/transform_data.py",
+    "data_processing/data_quality.py",
+    "database/load_to_database.py",
 ]
 
 for step in steps:
@@ -17,10 +18,12 @@ for step in steps:
     print("=" * 60)
     print(f"Running: {step}")
     print("=" * 60)
+
     result = subprocess.run(
         [PYTHON, str(PROJECT_ROOT / "src" / step)],
         cwd=PROJECT_ROOT
     )
+
     if result.returncode != 0:
         print()
         print(f"Pipeline stopped. Failed step: {step}")
